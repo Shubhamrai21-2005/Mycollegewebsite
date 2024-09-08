@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clg website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/preccc.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Course.html">Course</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+               <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our courses</h1>
+    </section>
+    <!-------------------course------------->
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>“In learning you will teach, and in teaching you will learn.”</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>“Struggling to decide what to do after graduation is,
+                    and always will be, a sort of rite of passage to the next phase of your 
+                     life.”</p>
+            </div>
+            <div class="course-col">
+                <h3>degree</h3>
+                <p>“Struggling to decide what to do after graduation is,
+                    and always will be, a sort of rite of passage to the next phase of your 
+                     life.”</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>“Struggling to decide what to do after graduation is,
+                    and always will be, a sort of rite of passage to the next phase of your 
+                     life.”</p>
+            </div>
+        </div>
+</section>
+<!-----------facillities-------------->
+<section class="facilities">
+    <h1>our facilities</h1>
+    <p>“In learning you will teach, and in teaching you will learn.”</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/libraryprec.png" alt="">
+            <h3>library facility available</h3>
+            <p>"Reading is an exercise in empathy;
+                 an exercise in walking in someone else’s shoes for a while." </p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cc.png" alt="">
+            <h3>best computer lab facility available</h3>
+            <p>“Computer Science is no more about computers than astronomy is about telescopes.”
+            </p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png" alt="">
+            <h3>sports facility available</h3>
+            <p>“"One man practicing sportsmanship is far better than a hundred teaching it."
+                ”
+            </p>
+        </div>
+    </div>
+</section>
+ <!------------------footer----------------->
+    <section class="footer">
+        <h4>about us</h4>
+        <p> The college is affiliated with Savitribai Phule Pune University and it is approved by AICTE.
+            The college is accredited with NAAC and awarded Grade “A” by DTE and Govt. of Maharashtra.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with<i class="fa fa-heart-o"></i> By Bendre Priti</p>
+
+    </section>
+    <!--------javascript for toggle menu------>
+    <script>
+        var navLink = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+
+</body>
+
+</html>
