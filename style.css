@@ -408,3 +408,22 @@ abput-col p{
     font-weight: 400;
     
 }
+
+.main{ 
+    font-size: 50px;
+        width: 200px;
+        padding-right: 30px 0;
+        text-align: center;
+        align-items: center;
+        padding-right: 30px;
+        border-radius: 25px;
+        font-weight: bold;
+        border: 2px solid #009688;
+        background: transparent;
+        color: #fff;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+    }
+
